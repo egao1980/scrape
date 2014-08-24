@@ -1,0 +1,148 @@
+[ERROR - 2014-08-21T21:55:31.891Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'RegExp.prototype.test.bind(
+    /^(data|aria)-[a-z_][a-z\d_.\-]*$/
+  )')
+[ERROR - 2014-08-21T21:55:31.891Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - stack:
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:3656)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:9205)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4272)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:11255)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:3814)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:15163)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  e (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:20249)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:20251)
+[ERROR - 2014-08-21T21:55:31.895Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - msg: TypeError: 'undefined' is not an object (evaluating 'React.PropTypes')
+[ERROR - 2014-08-21T21:55:31.895Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - stack:
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:843)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:257)
+  callDep (http://egao.co.uk:3000/assets/js/react-bootstrap.js:166)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:248)
+  callDep (http://egao.co.uk:3000/assets/js/react-bootstrap.js:166)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:248)
+  callDep (http://egao.co.uk:3000/assets/js/react-bootstrap.js:166)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:248)
+  callDep (http://egao.co.uk:3000/assets/js/react-bootstrap.js:166)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:284)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:5127)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:7)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:5128)
+[ERROR - 2014-08-21T21:55:32.431Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - msg: ReferenceError: Can't find variable: React
+[ERROR - 2014-08-21T21:55:32.431Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - stack:
+  (anonymous function) (http://egao.co.uk:3000/js/om/dom.js:2416)
+[ERROR - 2014-08-21T21:55:33.067Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - msg: ReferenceError: Can't find variable: React
+[ERROR - 2014-08-21T21:55:33.067Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - stack:
+  (anonymous function) (http://egao.co.uk:3000/js/sablono/interpreter.js:42)
+[ERROR - 2014-08-21T21:55:33.165Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - msg: ReferenceError: Can't find variable: ReactBootstrap
+[ERROR - 2014-08-21T21:55:33.165Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - stack:
+  (anonymous function) (http://egao.co.uk:3000/js/mentor/app.js:31)
+[ERROR - 2014-08-21T21:56:54.485Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'RegExp.prototype.test.bind(
+    /^(data|aria)-[a-z_][a-z\d_.\-]*$/
+  )')
+[ERROR - 2014-08-21T21:56:54.485Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - stack:
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:3656)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:9205)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4272)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:11255)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:3814)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:15163)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  e (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:20249)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:20251)
+[ERROR - 2014-08-21T21:56:54.487Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - msg: TypeError: 'undefined' is not an object (evaluating 'React.PropTypes')
+[ERROR - 2014-08-21T21:56:54.487Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - stack:
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:843)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:257)
+  callDep (http://egao.co.uk:3000/assets/js/react-bootstrap.js:166)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:248)
+  callDep (http://egao.co.uk:3000/assets/js/react-bootstrap.js:166)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:248)
+  callDep (http://egao.co.uk:3000/assets/js/react-bootstrap.js:166)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:248)
+  callDep (http://egao.co.uk:3000/assets/js/react-bootstrap.js:166)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:284)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:5127)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:7)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:5128)
+[ERROR - 2014-08-21T21:56:54.522Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - msg: ReferenceError: Can't find variable: React
+[ERROR - 2014-08-21T21:56:54.522Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - stack:
+  (anonymous function) (http://egao.co.uk:3000/js/om/dom.js:2416)
+[ERROR - 2014-08-21T21:56:54.558Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - msg: ReferenceError: Can't find variable: React
+[ERROR - 2014-08-21T21:56:54.558Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - stack:
+  (anonymous function) (http://egao.co.uk:3000/js/sablono/interpreter.js:42)
+[ERROR - 2014-08-21T21:56:54.568Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - msg: ReferenceError: Can't find variable: ReactBootstrap
+[ERROR - 2014-08-21T21:56:54.568Z] Session [aeccddb0-297d-11e4-85ff-61c4fb4e6b91] - page.onError - stack:
+  (anonymous function) (http://egao.co.uk:3000/js/mentor/app.js:31)
+[ERROR - 2014-08-21T21:58:27.263Z] Session [44c53330-297e-11e4-8ae5-516b2a14cb3f] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'RegExp.prototype.test.bind(
+    /^(data|aria)-[a-z_][a-z\d_.\-]*$/
+  )')
+[ERROR - 2014-08-21T21:58:27.263Z] Session [44c53330-297e-11e4-8ae5-516b2a14cb3f] - page.onError - stack:
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:3656)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:9205)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4272)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:11255)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:3814)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:15163)
+  s (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  e (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:20249)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:4)
+  (anonymous function) (http://dragon.ak.fbcdn.net/hphotos-ak-xpa1/t39.3284-6/10540963_267651446772964_1656155574_n.js:20251)
+[ERROR - 2014-08-21T21:58:27.267Z] Session [44c53330-297e-11e4-8ae5-516b2a14cb3f] - page.onError - msg: TypeError: 'undefined' is not an object (evaluating 'React.PropTypes')
+[ERROR - 2014-08-21T21:58:27.267Z] Session [44c53330-297e-11e4-8ae5-516b2a14cb3f] - page.onError - stack:
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:843)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:257)
+  callDep (http://egao.co.uk:3000/assets/js/react-bootstrap.js:166)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:248)
+  callDep (http://egao.co.uk:3000/assets/js/react-bootstrap.js:166)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:248)
+  callDep (http://egao.co.uk:3000/assets/js/react-bootstrap.js:166)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:248)
+  callDep (http://egao.co.uk:3000/assets/js/react-bootstrap.js:166)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:284)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:5127)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:7)
+  (anonymous function) (http://egao.co.uk:3000/assets/js/react-bootstrap.js:5128)
+[ERROR - 2014-08-21T21:58:27.919Z] Session [44c53330-297e-11e4-8ae5-516b2a14cb3f] - page.onError - msg: ReferenceError: Can't find variable: React
+[ERROR - 2014-08-21T21:58:27.919Z] Session [44c53330-297e-11e4-8ae5-516b2a14cb3f] - page.onError - stack:
+  (anonymous function) (http://egao.co.uk:3000/js/om/dom.js:2416)
+[ERROR - 2014-08-21T21:58:28.833Z] Session [44c53330-297e-11e4-8ae5-516b2a14cb3f] - page.onError - msg: ReferenceError: Can't find variable: React
+[ERROR - 2014-08-21T21:58:28.833Z] Session [44c53330-297e-11e4-8ae5-516b2a14cb3f] - page.onError - stack:
+  (anonymous function) (http://egao.co.uk:3000/js/sablono/interpreter.js:42)
+[ERROR - 2014-08-21T21:58:28.840Z] Session [44c53330-297e-11e4-8ae5-516b2a14cb3f] - page.onError - msg: ReferenceError: Can't find variable: ReactBootstrap
+[ERROR - 2014-08-21T21:58:28.841Z] Session [44c53330-297e-11e4-8ae5-516b2a14cb3f] - page.onError - stack:
+  (anonymous function) (http://egao.co.uk:3000/js/mentor/app.js:31)
+[ERROR - 2014-08-23T14:57:06.387Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1408805826334
