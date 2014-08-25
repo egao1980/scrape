@@ -16,9 +16,16 @@
                                                (.setCapability "phantomjs.cli.args" (into-array String ["--ignore-ssl-errors=true"
                                                                                                         "--webdriver-loglevel=WARN"]))))}))
 
-(defonce phantom (create-driver))
+;;(defonce phantom (create-driver))
 
-(set-driver! phantom)
+(set-driver! (init-driver
+               {:webdriver
+                 (PhantomJSDriver. (doto (DesiredCapabilities.)
+                                     (.setCapability "phantomjs.page.settings.userAgent", "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36")
+                                     (.setCapability "phantomjs.page.customHeaders.Accept-Language" "en-US")
+                                     (.setCapability "phantomjs.page.customHeaders.Connection" "keep-alive")
+                                     (.setCapability "phantomjs.cli.args" (into-array String ["--ignore-ssl-errors=true"
+                                                                                              "--webdriver-loglevel=WARN"]))))}))
 
 (defn as-rdfa
   ([q]
@@ -27,3 +34,11 @@
    (rdfa.parser/get-rdfa
      (StringReader.
        (html driver q)) (current-url driver) :html)))
+
+
+(defn google-results [tag]
+  (let [res (e/html-resource (StringReader. (html tag)))
+        links (e/select-nodes* res [:li.g :h3.r :a])]
+    (into [] (for [{{href :href} :attrs :as node} links] {:name (e/text node)
+                                                         :href href}))))
+
