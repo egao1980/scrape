@@ -41,4 +41,6 @@
         links (e/select-nodes* res [:li.g :h3.r :a])]
     (into [] (for [{{href :href} :attrs :as node} links] {:name (e/text node)
                                                          :href href}))))
+(defn as-source [q] (StringReader. (html q)))
 
+(execute-script "phantomjs.injectJs('lib/js/microformat-shiv.js');")
